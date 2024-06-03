@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://buwve2k1n4r7k"]
+
+[ext_resource type="Texture2D" uid="uid://cwiffvf46dche" path="res://assets/2d/mainlev_build.png" id="1_88pnv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wunky"]
+size = Vector2(46, 16)
+
+[node name="Platform" type="AnimatableBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_wunky")
+one_way_collision = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_88pnv")
+region_enabled = true
+region_rect = Rect2(960, 192, 48, 16)
