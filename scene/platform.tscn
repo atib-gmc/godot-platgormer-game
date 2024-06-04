@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://cwiffvf46dche" path="res://assets/2d/mainlev_build.png" id="1_88pnv"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wunky"]
-size = Vector2(46, 16)
+size = Vector2(54, 16)
 
 [node name="Platform" type="AnimatableBody2D"]
 
