@@ -32,7 +32,7 @@ To run the game locally, follow these steps:
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/atib-gmc/godot-platgormer-game/
     ```
 2. **Open the project in Godot**:
     - Open Godot Engine.
@@ -58,11 +58,8 @@ Feel free to fork this repository and contribute to the project. Pull requests a
 
 ## 📬 Contact
 
-If you have any questions or suggestions, please feel free to contact me at your.email@example.com or through my [GitHub profile](https://github.com/your-username).
+If you have any questions or suggestions, please feel free to contact me at your.atiblpu@example.com or through my  [Atib gmc](https://github.com/atib-gmc).
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
