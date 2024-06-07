@@ -1,14 +1,19 @@
 extends Area2D
-@onready var player = $"../Player"
-
 @onready var timer = $Timer
+@onready var collision = $CollisionShape2D
+
+@onready var apple = $"."
+
+
 
 func _on_body_entered(body):
-	print("you're dead")
+	collision.queue_free()
 	timer.start()
+	apple.move_local_y(-18)
 	pass # Replace with function body.
 
 
+
 func _on_timer_timeout():
-	get_parent().get_node("Player").position = Vector2(10,-5)
+	queue_free()
 	pass # Replace with function body.
